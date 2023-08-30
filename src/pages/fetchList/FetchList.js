@@ -5,29 +5,6 @@ import {
     Box
 } from '@mui/material';
 
-/*
-
-import { appSelector } from "../../redux/appRedux";
-import { useSelector } from 'react-redux';
-
-
-
-    const todoList = useSelector(appSelector.todo);
-
-    const totalTareas = todoList.length;
-
-    // Tareas completadas
-    const tareasCompletadas = todoList.filter(task => task.completed);
-  
-    // Cantidad de tareas completadas
-    const tareasCompletadasCount = tareasCompletadas.length;
-
-    // Tareas pendientes
-    const tareasPendientes = todoList.filter(task => !task.completed);
-
-    // Cantidad de tareas pendientes
-    const tareasPendientesCount = tareasPendientes.length;
-*/
 const FetchList = () => {
 
     return (
