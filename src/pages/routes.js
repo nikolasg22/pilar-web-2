@@ -3,7 +3,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import NotFound from "./layouts/NotFound";
 import Dashboard from "./dashboard/Dashboard";
 import Todo from "./todo/Todo";
-import FetchList from './fetchList/FetchList'
+import FetchList from './fetchList/FetchList';
 
 const Routes = () => {
     return useRoutes([
